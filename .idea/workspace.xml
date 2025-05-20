@@ -4,37 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/orange_hrm_automation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candidate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constant/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constant/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constant/input_field.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constant/validation_assert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_driven_test_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/test_log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_setup/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_setup/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_setup/randomeString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_add_new_candidate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_search_and_validate_candidate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reportsreport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resume/candidate_resume.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshorts/invalid_password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshorts/invalid_username.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshorts/invalid_username_password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_candidate_json.py" afterDir="false" />
+    <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="intitial commit">
+      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +22,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pm162004/orangehrm.git",
+    "accountId": "5d3da423-315c-49a0-ada5-58775cf03d07"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -101,6 +78,19 @@
       <option name="presentableId" value="Default" />
       <updated>1747714559052</updated>
     </task>
+    <task id="LOCAL-00001" summary="intitial commit">
+      <option name="closed" value="true" />
+      <created>1747727022642</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747727022642</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="intitial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="intitial commit" />
   </component>
 </project>
