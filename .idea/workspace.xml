@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/orange_hrm_automation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/candidate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant/input_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constant/validation_assert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_driven_test_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/test_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_setup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_setup/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_setup/randomeString.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_add_new_candidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orange_hrm_web/test_search_and_validate_candidate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reportsreport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resume/candidate_resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshorts/invalid_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshorts/invalid_username.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshorts/invalid_username_password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_candidate_json.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2xLPoxvP4hm8yG6cxT01NcHTx8P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.pytest in data_driven_test.py.executor": "Run",
+    "Python tests.pytest in test_add_new_candidate.py.executor": "Run",
+    "Python tests.pytest in test_login.py.executor": "Run",
+    "Python tests.pytest in test_search_and_validate_candidate.py.executor": "Run",
+    "Python.confest.executor": "Run",
+    "Python.input_field.executor": "Run",
+    "Python.log_config.executor": "Run",
+    "Python.randomeString.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/web-h-028/PycharmProjects/orange_hrm_automation/Resume",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Resume" />
+      <recent name="$PROJECT_DIR$/orange_hrm_setup" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="" />
+      <created>1747714559052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747714559052</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,273 @@
+2025-05-20 10:12:45,868 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 10:12:49,605 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 10:17:58,842 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 10:18:02,764 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 10:18:28,867 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 10:18:33,020 - INFO - User logged in successfully
+2025-05-20 10:18:37,934 - INFO - Log out is successfully
+2025-05-20 10:19:31,468 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 10:19:35,242 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 10:19:39,577 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 10:19:45,146 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 10:19:49,463 - INFO - User logged in successfully
+2025-05-20 10:19:54,059 - INFO - Log out is successfully
+2025-05-20 10:49:26,153 - INFO - User logged in successfully
+2025-05-20 10:49:48,099 - INFO - Clicked Add Candidate button
+2025-05-20 10:50:08,643 - INFO - Entered candidate name and email
+2025-05-20 10:51:02,203 - INFO - User logged in successfully
+2025-05-20 10:51:03,212 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 10:51:04,364 - INFO - Clicked Add Candidate button
+2025-05-20 10:51:25,214 - INFO - Entered candidate name and email
+2025-05-20 10:53:22,334 - INFO - User logged in successfully
+2025-05-20 10:53:23,349 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 10:53:25,844 - INFO - Clicked Add Candidate button
+2025-05-20 10:53:41,902 - INFO - Blank validations are displayed
+2025-05-20 10:54:44,817 - INFO - User logged in successfully
+2025-05-20 10:54:45,755 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 10:56:11,515 - INFO - User logged in successfully
+2025-05-20 10:56:13,658 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 10:56:14,880 - INFO - Clicked Add Candidate button
+2025-05-20 10:56:14,950 - INFO - Blank validations are displayed
+2025-05-20 10:57:37,108 - INFO - User logged in successfully
+2025-05-20 10:57:38,213 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 10:57:39,384 - INFO - Clicked Add Candidate button
+2025-05-20 10:57:40,580 - INFO - Blank validations are displayed
+2025-05-20 10:57:40,855 - INFO - Entered candidate name and email
+2025-05-20 10:58:09,162 - INFO - User logged in successfully
+2025-05-20 10:58:10,207 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 10:58:11,450 - INFO - Clicked Add Candidate button
+2025-05-20 10:58:13,055 - INFO - Blank validations are displayed
+2025-05-20 10:58:13,544 - INFO - Entered candidate name and email
+2025-05-20 11:00:25,796 - INFO - User logged in successfully
+2025-05-20 11:00:26,888 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:00:28,061 - INFO - Clicked Add Candidate button
+2025-05-20 11:00:29,306 - INFO - Blank validations are displayed
+2025-05-20 11:00:29,580 - INFO - Entered candidate name and email
+2025-05-20 11:00:30,361 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:02:26,608 - INFO - User logged in successfully
+2025-05-20 11:02:27,567 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:02:28,738 - INFO - Clicked Add Candidate button
+2025-05-20 11:02:30,008 - INFO - Blank validations are displayed
+2025-05-20 11:02:30,272 - INFO - Entered candidate name and email
+2025-05-20 11:02:30,977 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:03:31,770 - INFO - User logged in successfully
+2025-05-20 11:03:33,497 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:03:34,694 - INFO - Clicked Add Candidate button
+2025-05-20 11:03:35,922 - INFO - Blank validations are displayed
+2025-05-20 11:04:31,134 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 11:04:35,181 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 11:04:39,318 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 11:05:06,797 - INFO - User logged in successfully
+2025-05-20 11:05:07,845 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:05:09,058 - INFO - Clicked Add Candidate button
+2025-05-20 11:05:10,368 - INFO - Blank validations are displayed
+2025-05-20 11:07:59,692 - INFO - User logged in successfully
+2025-05-20 11:08:00,929 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:08:02,259 - INFO - Clicked Add Candidate button
+2025-05-20 11:08:03,572 - INFO - Blank validations are displayed
+2025-05-20 11:10:03,237 - INFO - User logged in successfully
+2025-05-20 11:10:04,322 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:10:05,639 - INFO - Clicked Add Candidate button
+2025-05-20 11:10:06,879 - INFO - Blank validations are displayed
+2025-05-20 11:10:08,042 - INFO - Entered candidate name and email
+2025-05-20 11:10:08,042 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:16:56,311 - INFO - User logged in successfully
+2025-05-20 11:16:57,985 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:16:59,207 - INFO - Clicked Add Candidate button
+2025-05-20 11:17:00,519 - INFO - Blank validations are displayed
+2025-05-20 11:18:03,207 - INFO - User logged in successfully
+2025-05-20 11:18:04,155 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:18:05,278 - INFO - Clicked Add Candidate button
+2025-05-20 11:18:06,601 - INFO - Blank validations are displayed
+2025-05-20 11:18:07,080 - INFO - Entered candidate name and email
+2025-05-20 11:18:07,080 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:20:24,614 - INFO - User logged in successfully
+2025-05-20 11:20:25,780 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:20:27,218 - INFO - Clicked Add Candidate button
+2025-05-20 11:20:28,447 - INFO - Blank validations are displayed
+2025-05-20 11:20:29,622 - INFO - Entered candidate name and email
+2025-05-20 11:20:29,622 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:20:29,723 - INFO - Uploaded resume
+2025-05-20 11:21:12,783 - INFO - User logged in successfully
+2025-05-20 11:21:13,992 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:21:15,262 - INFO - Clicked Add Candidate button
+2025-05-20 11:21:16,493 - INFO - Blank validations are displayed
+2025-05-20 11:21:17,608 - INFO - Entered candidate name and email
+2025-05-20 11:21:17,608 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:21:17,713 - INFO - Uploaded resume
+2025-05-20 11:21:17,784 - INFO - Clicked Save button
+2025-05-20 11:21:23,887 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-20 11:21:26,070 - INFO - Logged out successfully
+2025-05-20 11:24:14,267 - INFO - Login successful
+2025-05-20 11:25:01,649 - INFO - Login successful
+2025-05-20 11:25:03,489 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:25:05,698 - INFO - Entered candidate name in search
+2025-05-20 11:25:05,782 - INFO - Clicked search button
+2025-05-20 11:25:47,968 - INFO - Login successful
+2025-05-20 11:25:48,976 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:25:51,195 - INFO - Entered candidate name in search
+2025-05-20 11:25:51,276 - INFO - Clicked search button
+2025-05-20 11:27:40,553 - INFO - User logged in successfully
+2025-05-20 11:27:41,565 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:27:42,674 - INFO - Clicked Add Candidate button
+2025-05-20 11:27:44,019 - INFO - Blank validations are displayed
+2025-05-20 11:27:45,234 - INFO - Entered candidate name and email
+2025-05-20 11:27:45,234 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:27:45,336 - INFO - Uploaded resume
+2025-05-20 11:27:45,405 - INFO - Clicked Save button
+2025-05-20 11:27:51,865 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-20 11:27:53,985 - INFO - Logged out successfully
+2025-05-20 11:29:07,864 - INFO - Login successful
+2025-05-20 11:29:08,860 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:29:11,140 - INFO - Entered candidate name in search
+2025-05-20 11:29:11,224 - INFO - Clicked search button
+2025-05-20 11:32:00,801 - INFO - User logged in successfully
+2025-05-20 11:32:01,835 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:32:03,233 - INFO - Clicked Add Candidate button
+2025-05-20 11:32:04,436 - INFO - Blank validations are displayed
+2025-05-20 11:32:05,781 - INFO - Entered candidate name and email
+2025-05-20 11:32:05,781 - INFO - Selected vacancy: Software Engineer
+2025-05-20 11:32:05,891 - INFO - Uploaded resume
+2025-05-20 11:32:05,964 - INFO - Clicked Save button
+2025-05-20 11:32:12,647 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-20 11:32:14,984 - INFO - Logged out successfully
+2025-05-20 11:33:24,071 - INFO - Login successful
+2025-05-20 11:33:25,246 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:33:27,477 - INFO - Entered candidate name in search
+2025-05-20 11:33:27,560 - INFO - Clicked search button
+2025-05-20 11:40:21,440 - INFO - User logged in successfully
+2025-05-20 11:40:22,610 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:40:23,720 - INFO - Entered candidate name in search
+2025-05-20 11:40:23,814 - INFO - Clicked search button
+2025-05-20 11:40:49,084 - INFO - User logged in successfully
+2025-05-20 11:40:50,086 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:40:51,590 - INFO - Entered candidate name in search
+2025-05-20 11:40:51,670 - INFO - Clicked search button
+2025-05-20 11:47:27,479 - INFO - User logged in successfully
+2025-05-20 11:47:28,530 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:47:29,727 - INFO - Entered candidate name in search
+2025-05-20 11:47:31,404 - WARNING - Candidate name 'john' not found in suggestions
+2025-05-20 11:55:58,440 - INFO - User logged in successfully
+2025-05-20 11:55:59,506 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 11:56:00,695 - INFO - Entered candidate name in search
+2025-05-20 12:01:12,164 - INFO - User logged in successfully
+2025-05-20 12:01:13,356 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:01:14,592 - INFO - Entered candidate name in search
+2025-05-20 12:07:50,157 - INFO - User logged in successfully
+2025-05-20 12:07:52,274 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:07:54,514 - INFO - Entered candidate name in search
+2025-05-20 12:10:12,780 - INFO - User logged in successfully
+2025-05-20 12:10:14,077 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:10:16,912 - WARNING - Candidate 'john' not found in suggestions
+2025-05-20 12:11:31,110 - INFO - User logged in successfully
+2025-05-20 12:11:32,327 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:11:34,735 - INFO - Suggestions found: ['john parity necessary', 'John Doe', 'John Doe', 'John Doe', 'John Doe']
+2025-05-20 12:11:34,826 - WARNING - Candidate 'john' not found in suggestions
+2025-05-20 12:15:35,517 - INFO - User logged in successfully
+2025-05-20 12:15:36,763 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:16:05,836 - INFO - User logged in successfully
+2025-05-20 12:16:07,017 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:16:07,501 - INFO - Searching for candidate
+2025-05-20 12:16:10,608 - INFO - Navigated to Recruitment section
+2025-05-20 12:16:11,300 - INFO - Searched for candidate: john
+2025-05-20 12:16:11,906 - INFO - Candidate name validated
+2025-05-20 12:16:11,924 - INFO - Vacancy validated
+2025-05-20 12:16:11,941 - INFO - Application status validated
+2025-05-20 12:16:12,078 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-20 12:17:50,641 - INFO - User logged in successfully
+2025-05-20 12:17:51,954 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:17:52,454 - INFO - Searching for candidate
+2025-05-20 12:17:55,078 - INFO - Navigated to Recruitment section
+2025-05-20 12:17:55,956 - INFO - Searched for candidate: john
+2025-05-20 12:17:56,101 - INFO - Candidate name validated
+2025-05-20 12:17:56,119 - INFO - Vacancy validated
+2025-05-20 12:17:56,135 - INFO - Application status validated
+2025-05-20 12:17:56,295 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-20 12:19:13,135 - INFO - User logged in successfully
+2025-05-20 12:19:14,084 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:19:14,591 - INFO - Searching for candidate
+2025-05-20 12:19:17,198 - INFO - Navigated to Recruitment section
+2025-05-20 12:19:19,855 - INFO - Selected autosuggested candidate: john
+2025-05-20 12:19:19,935 - INFO - Searched for candidate: john
+2025-05-20 12:19:20,521 - INFO - Candidate name validated
+2025-05-20 12:19:20,575 - INFO - Vacancy validated
+2025-05-20 12:19:20,619 - INFO - Application status validated
+2025-05-20 12:19:20,796 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-20 12:28:39,402 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:28:56,976 - INFO - User logged in successfully
+2025-05-20 12:29:03,215 - INFO - Log out is successfully
+2025-05-20 12:41:38,595 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:42:25,666 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:42:54,138 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:46:25,888 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:46:29,527 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 12:46:33,640 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 12:46:38,970 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 12:46:43,073 - INFO - User logged in successfully
+2025-05-20 12:46:48,001 - INFO - Log out is successfully
+2025-05-20 12:48:54,770 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:49:01,274 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 12:49:10,302 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 12:49:18,117 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 12:49:22,185 - INFO - User logged in successfully
+2025-05-20 12:49:27,228 - INFO - Log out is successfully
+2025-05-20 12:51:40,584 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:51:44,184 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 12:51:48,198 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 12:51:53,330 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 12:51:57,350 - INFO - User logged in successfully
+2025-05-20 12:52:02,459 - INFO - Log out is successfully
+2025-05-20 12:52:51,195 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:52:54,989 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 12:52:59,070 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 12:53:04,326 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 12:53:08,378 - INFO - User logged in successfully
+2025-05-20 12:53:13,565 - INFO - Log out is successfully
+2025-05-20 12:53:50,943 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-20 12:53:54,873 - INFO - Enter invalid username check the error message is displayed.
+2025-05-20 12:53:58,904 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-20 12:54:04,127 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-20 12:54:08,011 - INFO - User logged in successfully
+2025-05-20 12:54:13,272 - INFO - Log out is successfully
+2025-05-20 12:55:05,921 - INFO - User logged in successfully
+2025-05-20 12:55:10,894 - INFO - Log out is successfully
+2025-05-20 12:56:38,866 - INFO - User logged in successfully
+2025-05-20 12:56:40,322 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:56:43,298 - INFO - Navigated to Recruitment section
+2025-05-20 12:56:45,688 - INFO - Searching for candidate
+2025-05-20 12:56:45,828 - INFO - Selected autosuggested candidate: john
+2025-05-20 12:56:45,991 - INFO - Searched for candidate: john
+2025-05-20 12:56:46,603 - INFO - Candidate name validated
+2025-05-20 12:56:46,643 - INFO - Vacancy validated
+2025-05-20 12:56:46,676 - INFO - Application status validated
+2025-05-20 12:56:46,830 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-20 12:57:36,679 - INFO - User logged in successfully
+2025-05-20 12:57:37,731 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 12:57:38,985 - INFO - Clicked Add Candidate button
+2025-05-20 12:57:40,921 - INFO - Blank validations are displayed
+2025-05-20 12:57:41,444 - INFO - Entered candidate name and email
+2025-05-20 12:57:41,444 - INFO - Selected vacancy: Software Engineer
+2025-05-20 12:57:41,535 - INFO - Uploaded resume
+2025-05-20 12:57:41,608 - INFO - Clicked Save button
+2025-05-20 12:57:48,684 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-20 12:57:51,039 - INFO - Logged out successfully
+2025-05-20 13:12:30,361 - INFO - User logged in successfully
+2025-05-20 13:12:31,664 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 13:12:35,492 - INFO - Navigated to Recruitment section
+2025-05-20 13:12:36,137 - INFO - Searching for candidate
+2025-05-20 13:12:37,998 - INFO - Selected autosuggested candidate: john
+2025-05-20 13:12:38,139 - INFO - Searched for candidate: john
+2025-05-20 13:12:38,715 - INFO - Candidate name validated
+2025-05-20 13:12:38,754 - INFO - Vacancy validated
+2025-05-20 13:12:38,791 - INFO - Application status validated
+2025-05-20 13:12:38,941 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-20 13:13:08,559 - INFO - User logged in successfully
+2025-05-20 13:13:09,613 - INFO - Navigated to Recruitment > Candidates page
+2025-05-20 13:13:13,792 - INFO - Navigated to Recruitment section
+2025-05-20 13:13:14,660 - INFO - Searching for candidate
+2025-05-20 13:13:16,362 - INFO - Selected autosuggested candidate: john
+2025-05-20 13:13:16,454 - INFO - Searched for candidate: john
+2025-05-20 13:13:17,007 - INFO - Candidate name validated
+2025-05-20 13:13:17,027 - INFO - Vacancy validated
+2025-05-20 13:13:17,046 - INFO - Application status validated
+2025-05-20 13:13:17,218 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
