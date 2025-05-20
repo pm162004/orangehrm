@@ -98,24 +98,6 @@ def quit_browser():
     return driver.quit()
 
 
-@pytest.hookimpl(tryfirst=True)
-def pytest_configure(config):
-    # Define the path for the report folder
-    report_dir = "/home/web-h-028/PycharmProjects/orange_hrm_automation/reports"
-
-    # Create the reports directory if it doesn't exist
-    if not os.path.exists(report_dir):
-        os.makedirs(report_dir)
-
-    # Create a timestamp string safe for filenames (no spaces or colons)
-    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-
-    # Set the path for the HTML report
-    config.option.htmlpath = os.path.join(report_dir, f"report_{timestamp}.html")
-
-    # Optional: create self-contained HTML report
-    config.option.self_contained_html = True
-
 
 # Test Cases
 class TestOrangeHrmLogin:
