@@ -12,6 +12,5 @@ def test_schedule_interview(candidate):
     name = candidate["name"]
     time = candidate["interview_time"]
     print(f"Scheduling interview for {name} at {time}")
-    # Your Selenium steps here using name & time
     assert name != ""
     assert time != ""
