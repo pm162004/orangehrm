@@ -1,6 +1,8 @@
 import logging
 import os
 import time
+
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -181,7 +183,9 @@ def save_screenshorts():
 
 
 # Test class
+@pytest.mark.order(1)
 class TestOrangeHrmCandidate:
+
     def test_valid_login_flow(self):
         refresh_page()
         username_input().send_keys(user_name)
@@ -190,11 +194,13 @@ class TestOrangeHrmCandidate:
         assert check_for_dashboard().text == validation_assert.dashboard
         logger.info("User logged in successfully")
 
+    @pytest.mark.order(1)
     def test_click_add_candidate_btn(self):
         click_menu_recruitment().click()
         logger.info("Navigated to Recruitment > Candidates page")
         driver.refresh()
 
+    @pytest.mark.order(2)
     def test_search_candidate(self):
         refresh_page()
         click_menu_recruitment().click()
