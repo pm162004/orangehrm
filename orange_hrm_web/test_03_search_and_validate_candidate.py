@@ -31,12 +31,12 @@ wait.until(EC.visibility_of_element_located((By.TAG_NAME, "body")))
 user_name = config.USER_NAME
 password = config.PASSWORD
 
-# Screenshot directory
+
 screenshot_dir = "../screenshorts"
 os.makedirs(screenshot_dir, exist_ok=True)
 
 
-# Elements for login
+
 def username_input():
     return wait.until(EC.presence_of_element_located((By.XPATH, "//input[@placeholder='Username']")))
 
@@ -154,16 +154,22 @@ def candidate_in_table(name):
     return wait.until(EC.presence_of_element_located(
         (By.XPATH, f"//div[@class='oxd-table-body']//div[contains(@role, 'row')]//div[contains(text(), '{name}')]")
     ))
+
+
 def check_candidate_name():
     candidate_name = wait.until(
         EC.presence_of_element_located((By.XPATH, "//div[@role='row']//div[contains(text(),'john')]"))
     )
     return candidate_name
+
+
 def check_vacancy():
     vacancy_name = wait.until(
         EC.presence_of_element_located((By.XPATH, "//div[@role='row']//div[contains(text(),'Software Engineer')]"))
     )
     return vacancy_name
+
+
 def check_status():
     status = wait.until(
         EC.presence_of_element_located(
@@ -171,21 +177,23 @@ def check_status():
     )
     return status
 
+
 def check_for_search_button():
     search_button = wait.until(
         EC.element_to_be_clickable((By.XPATH, "//button[@type='submit']"))
     )
     return search_button
 
+
 def save_screenshorts():
     screenshot_path = os.path.join(screenshot_dir, "candidate_search_result.png")
     return screenshot_path
 
 
-# Test class
+
 
 class TestOrangeHrmCandidate:
-    # @pytest.mark.order(11)
+
     def test_valid_login_flow(self):
         refresh_page()
         username_input().send_keys(user_name)
@@ -194,13 +202,12 @@ class TestOrangeHrmCandidate:
         assert check_for_dashboard().text == validation_assert.dashboard
         logger.info("User logged in successfully")
 
-    # @pytest.mark.order(12)
+
     def test_click_add_candidate_btn(self):
         click_menu_recruitment().click()
         logger.info("Navigated to Recruitment > Candidates page")
         driver.refresh()
 
-    # @pytest.mark.order(13)
     def test_search_candidate(self):
         refresh_page()
         click_menu_recruitment().click()
@@ -219,16 +226,10 @@ class TestOrangeHrmCandidate:
         check_for_search_button().click()
         logger.info(f"Searched for candidate: {candidate_search_name}")
 
-
-
         wait.until(EC.presence_of_element_located((By.XPATH, "//div[@class='oxd-table-body']")))
-
-
 
         assert check_candidate_name().is_displayed(), "Candidate name not found in table"
         logger.info("Candidate name validated")
-
-
 
         assert check_vacancy().is_displayed(), "Vacancy not found in table"
         logger.info("Vacancy validated")
@@ -239,5 +240,3 @@ class TestOrangeHrmCandidate:
         driver.save_screenshot(save_screenshorts())
         logger.info(f"Screenshot saved at: {save_screenshorts()}")
         quit_browser()
-
-

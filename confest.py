@@ -14,9 +14,8 @@ logger = setup_logger()
 
 
 
-# ---------- Test Ordering ----------
 def pytest_collection_modify_items(session, config, items):
-    # Define the desired file order
+
     file_order = [
         "test_01_login.py",
         "test_02_add_new_candidate.py",
@@ -24,14 +23,14 @@ def pytest_collection_modify_items(session, config, items):
         "test_04_logout.py",
     ]
 
-    # Sort items by the index of their file in file_order
+
     def file_index(item):
         for idx, filename in enumerate(file_order):
             if filename in item.nodeid:
                 return idx
-        return len(file_order)  # Files not listed come last
+        return len(file_order)
 
-    # Now sort items in-place by file order
+
     items.sort(key=file_index)
     order = [
         "test_01_login.py::TestOrangeHrmLogin::test_blank_login_field",

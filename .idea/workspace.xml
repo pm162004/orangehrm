@@ -7,15 +7,11 @@
     <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="intitial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confest.py" beforeDir="false" afterPath="$PROJECT_DIR$/confest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_setup/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_setup/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_add_new_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_add_new_candidate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_search_and_validate_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_search_and_validate_candidate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshorts/invalid_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshorts/invalid_password.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshorts/invalid_username.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshorts/invalid_username.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshorts/invalid_username_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshorts/invalid_username_password.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_01_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_01_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_02_add_new_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_02_add_new_candidate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_03_search_and_validate_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_03_search_and_validate_candidate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_04_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_04_logout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +54,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.pytest in data_driven_test.py.executor": "Run",
     "Python tests.pytest in data_driven_test_json.py.executor": "Run",
+    "Python tests.pytest in test_02_add_new_candidate.py.executor": "Run",
     "Python tests.pytest in test_add_new_candidate.py.executor": "Run",
     "Python tests.pytest in test_candidate_json.py.executor": "Run",
     "Python tests.pytest in test_login.py.executor": "Run",
@@ -71,7 +68,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/web-h-028/PycharmProjects/TrainingAutomation",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -82,6 +79,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/orange_hrm_web" />
+      <recent name="$PROJECT_DIR$/orange_hrm_setup" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -123,7 +121,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747812800184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="intitial commit">
+      <option name="closed" value="true" />
+      <created>1747822940642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747822940642</updated>
+    </task>
+    <task id="LOCAL-00005" summary="intitial commit">
+      <option name="closed" value="true" />
+      <created>1747828392334</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747828392334</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
