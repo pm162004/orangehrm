@@ -68,7 +68,7 @@ def check_blank_password():
 def check_invalid_creds():
     creds_variable = wait.until(
         EC.presence_of_element_located(
-            (By.XPATH, "//p[@class='oxd-text oxd-text--p oxd-alert-content-text']")
+            (By.CSS_SELECTOR, ".oxd-text.oxd-text--p.oxd-alert-content-text")
         )
     )
     return creds_variable
@@ -99,17 +99,29 @@ def quit_browser():
 
 
 # Test Cases
-@pytest.mark.order(1)
+# @pytest.mark.order(1)
 class TestOrangeHrmLogin:
 
-    @pytest.mark.order(1)
+    # @pytest.mark.order(1)
     def test_blank_login_field(self):
         login_btn().click()
         assert check_blank_username().text == validation_assert.ENTER_USERNAME
         assert check_blank_password().text == validation_assert.ENTER_PASSWORD
         logger.info("Enter blank username and password check the error message is displayed.")
 
-    @pytest.mark.order(2)
+    # @pytest.mark.order(2)
+    def test_invalid_password(self):
+        refresh_page()
+        time.sleep(1)
+        username_input().send_keys(config.USER_NAME)
+        password_input().send_keys(input_field.INVALID_PASSWORD)
+        login_btn().click()
+        time.sleep(1)
+        assert check_invalid_creds().text == error.INVALID_CREDS_ERROR_MESSAGE
+        driver.save_screenshot(f"../screenshorts/invalid_password.png")
+        logger.info("Enter invalid password and check the error message is displayed.")
+
+
     def test_invalid_username(self):
         refresh_page()
         username_input().send_keys(input_field.INVALID_USERNAME)
@@ -118,19 +130,10 @@ class TestOrangeHrmLogin:
         assert check_invalid_creds().text == error.INVALID_CREDS_ERROR_MESSAGE
         driver.save_screenshot(f"../screenshorts/invalid_username.png")
         logger.info("Enter invalid username check the error message is displayed.")
-
-    @pytest.mark.order(3)
-    def test_invalid_password(self):
         refresh_page()
-        username_input().send_keys(config.USER_NAME)
-        password_input().send_keys(input_field.INVALID_PASSWORD)
-        login_btn().click()
-        assert check_invalid_creds().text == error.INVALID_CREDS_ERROR_MESSAGE
-        driver.save_screenshot(f"../screenshorts/invalid_password.png")
-        logger.info("Enter invalid password and check the error message is displayed.")
-        refresh_page()
+    # @pytest.mark.order(3)
 
-    @pytest.mark.order(4)
+    # @pytest.mark.order(4)
     def test_invalid_username_password(self):
         refresh_page()
         username_input().send_keys(input_field.INVALID_USERNAME)
@@ -139,8 +142,8 @@ class TestOrangeHrmLogin:
         assert check_invalid_creds().text == error.INVALID_CREDS_ERROR_MESSAGE
         driver.save_screenshot(f"../screenshorts/invalid_username_password.png")
         logger.info("Enter invalid username and password and check the error message is displayed.")
-
-    @pytest.mark.order(5)
+        refresh_page()
+    # @pytest.mark.order(5)
     def test_valid_login_flow(self):
         refresh_page()
         username_input().send_keys(config.USER_NAME)
@@ -149,6 +152,7 @@ class TestOrangeHrmLogin:
         assert check_for_dashboard().text == validation_assert.dashboard
         logger.info("User logged in successfully")
 
+    # @pytest.mark.order(6)
     def test_logout(self):
         refresh_page()
         logout_menu().click()

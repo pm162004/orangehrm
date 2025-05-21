@@ -78,10 +78,10 @@ def quit_browser():
     return driver.quit()
 
 # Test Cases
-@pytest.mark.order(1)
+
 class TestOrangeHrmLoOut:
 
-    @pytest.mark.order(1)
+    # @pytest.mark.order(14)
     def test_valid_login_flow(self):
         refresh_page()
         username_input().send_keys(user_name)
@@ -90,7 +90,7 @@ class TestOrangeHrmLoOut:
         assert check_for_dashboard().text == validation_assert.dashboard
         logger.info("User logged in successfully")
 
-    @pytest.mark.order(2)
+    # @pytest.mark.order(15)
     def test_logout(self):
         refresh_page()
         logout_menu().click()

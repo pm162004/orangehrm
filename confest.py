@@ -18,10 +18,10 @@ logger = setup_logger()
 def pytest_collection_modify_items(session, config, items):
     # Define the desired file order
     file_order = [
-        "test_login.py",
-        "test_add_new_candidate.py",
-        "test_search_and_validate_candidate.py",
-        "test_logout.py",
+        "test_01_login.py",
+        "test_02_add_new_candidate.py",
+        "test_03_search_and_validate_candidate.py",
+        "test_04_logout.py",
     ]
 
     # Sort items by the index of their file in file_order
@@ -34,17 +34,17 @@ def pytest_collection_modify_items(session, config, items):
     # Now sort items in-place by file order
     items.sort(key=file_index)
     order = [
-        "test_login.py::TestOrangeHrmLogin::test_blank_login_field",
-        "test_login.py::TestOrangeHrmLogin::test_invalid_username",
-        "test_login.py::TestOrangeHrmLogin::test_invalid_password",
-        "test_login.py::TestOrangeHrmLogin::test_invalid_username_password",
-        "test_login.py::TestOrangeHrmLogin::test_valid_login_flow",
+        "test_01_login.py::TestOrangeHrmLogin::test_blank_login_field",
+        "test_01_login.py::TestOrangeHrmLogin::test_invalid_username",
+        "test_01_login.py::TestOrangeHrmLogin::test_invalid_password",
+        "test_01_login.py::TestOrangeHrmLogin::test_invalid_username_password",
+        "test_01_login.py::TestOrangeHrmLogin::test_valid_login_flow",
         "test_add_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn",
         "test_add_candidate.py::TestOrangeHrmCandidate::test_blank_validations",
         "test_add_candidate.py::TestOrangeHrmCandidate::test_add_new_candidate",
         "test_search_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn",
         "test_search_candidate.py::TestOrangeHrmCandidate::test_search_candidate",
-        "test_logout.py::TestOrangeHrmLogout::test_logout",
+        "test_04_logout.py::TestOrangeHrmLogout::test_logout",
     ]
 
     item_dict = {item.nodeid: item for item in items}
