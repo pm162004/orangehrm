@@ -1,36 +1,52 @@
 import os
+import logging
 from datetime import datetime
-import pytest
 
+import pytest
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+from log_config import setup_logger
+
+# Initialize logger
+logger = setup_logger()
+
+
+
+
+# ---------- Test Ordering ----------
 def pytest_collection_modify_items(session, config, items):
     order = [
-        "test_blank_login_field",
-        "test_invalid_username_and_password",
-        "test_invalid_username",
-        "test_invalid_password",
-        "test_valid_login_flow",
-        "test_logout"
+        "test_login.py::TestOrangeHrmLogin::test_blank_login_field",
+        "test_login.py::TestOrangeHrmLogin::test_invalid_username",
+        "test_login.py::TestOrangeHrmLogin::test_invalid_password",
+        "test_login.py::TestOrangeHrmLogin::test_invalid_username_password",
+        "test_login.py::TestOrangeHrmLogin::test_valid_login_flow",
+        "test_add_candidate.py::TestAddCandidate::test_click_add_candidate_btn",
+        "test_add_candidate.py::TestAddCandidate::test_blank_validations",
+        "test_add_candidate.py::TestAddCandidate::test_add_new_candidate",
+        "test_search_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn",
+        "test_search_candidate.py::TestOrangeHrmCandidate::test_search_candidate",
+        "test_logout.py::TestOrangeHrmLogout::test_logout",
     ]
-    item_dict = {item.name: item for item in items}
+
+    item_dict = {item.nodeid: item for item in items}
     ordered_items = [item_dict[name] for name in order if name in item_dict]
-    # Add remaining tests at the end if any
     rest = [item for item in items if item not in ordered_items]
     items[:] = ordered_items + rest
 
+    logger.info(f"Test order applied. Ordered: {len(ordered_items)}; Remaining: {len(rest)}")
+
+
+# ---------- HTML Reporting ----------
 @pytest.hookimpl(tryfirst=True)
 def pytest_configure(config):
-    # Define the path for the report folder
-    report_dir = "/home/web-h-028/PycharmProjects/orange_hrm_automation/reports"
+    report_dir = os.path.join(os.path.dirname(__file__), "reports")
+    os.makedirs(report_dir, exist_ok=True)
 
-    # Create the reports directory if it doesn't exist
-    if not os.path.exists(report_dir):
-        os.makedirs(report_dir)
-
-    # Create a timestamp string safe for filenames (no spaces or colons)
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-
-    # Set the path for the HTML report
-    config.option.htmlpath = os.path.join(report_dir, f"report_{timestamp}.html")
-
-    # Optional: create self-contained HTML report
+    report_path = os.path.join(report_dir, f"report_{timestamp}.html")
+    config.option.htmlpath = report_path
     config.option.self_contained_html = True
+
+    logger.info(f"HTML report will be saved to: {report_path}")

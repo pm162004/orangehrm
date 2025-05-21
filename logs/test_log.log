@@ -282,3 +282,75 @@
 2025-05-21 11:05:52,521 - INFO - Enter invalid username and password and check the error message is displayed.
 2025-05-21 11:05:56,922 - INFO - User logged in successfully
 2025-05-21 11:06:01,950 - INFO - Log out is successfully
+2025-05-21 11:06:48,974 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 11:06:53,178 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 11:06:57,269 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-21 11:07:02,860 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 11:07:06,909 - INFO - User logged in successfully
+2025-05-21 11:07:11,461 - INFO - Log out is successfully
+2025-05-21 11:07:40,784 - INFO - User logged in successfully
+2025-05-21 11:07:42,000 - INFO - Navigated to Recruitment > Candidates page
+2025-05-21 11:07:43,187 - INFO - Clicked Add Candidate button
+2025-05-21 11:07:44,476 - INFO - Blank validations are displayed
+2025-05-21 11:07:45,320 - INFO - Entered candidate name and email
+2025-05-21 11:07:45,320 - INFO - Selected vacancy: Software Engineer
+2025-05-21 11:07:45,488 - INFO - Uploaded resume
+2025-05-21 11:07:45,587 - INFO - Clicked Save button
+2025-05-21 11:07:51,911 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-21 11:07:54,120 - INFO - Logged out successfully
+2025-05-21 11:08:21,950 - INFO - User logged in successfully
+2025-05-21 11:08:22,940 - INFO - Navigated to Recruitment > Candidates page
+2025-05-21 11:08:26,056 - INFO - Navigated to Recruitment section
+2025-05-21 11:08:26,862 - INFO - Searching for candidate
+2025-05-21 11:08:28,220 - INFO - Selected autosuggested candidate: john
+2025-05-21 11:08:28,349 - INFO - Searched for candidate: john
+2025-05-21 11:08:28,903 - INFO - Candidate name validated
+2025-05-21 11:08:28,921 - INFO - Vacancy validated
+2025-05-21 11:08:28,940 - INFO - Application status validated
+2025-05-21 11:08:29,179 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-21 11:08:51,283 - INFO - User logged in successfully
+2025-05-21 11:08:57,060 - INFO - Log out is successfully
+2025-05-21 11:09:22,778 - INFO - User logged in successfully
+2025-05-21 11:09:23,693 - INFO - Navigated to Recruitment > Candidates page
+2025-05-21 11:09:24,923 - INFO - Clicked Add Candidate button
+2025-05-21 11:09:26,620 - INFO - Blank validations are displayed
+2025-05-21 11:09:27,374 - INFO - Entered candidate name and email
+2025-05-21 11:09:27,374 - INFO - Selected vacancy: Software Engineer
+2025-05-21 11:09:27,520 - INFO - Uploaded resume
+2025-05-21 11:09:27,617 - INFO - Clicked Save button
+2025-05-21 11:09:33,715 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-21 11:09:35,761 - INFO - Logged out successfully
+2025-05-21 11:41:40,604 - INFO - User logged in successfully
+2025-05-21 11:52:53,889 - INFO - User logged in successfully
+2025-05-21 11:58:05,821 - INFO - User logged in successfully
+2025-05-21 11:58:47,381 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 11:59:13,301 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 11:59:40,173 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 12:00:28,527 - INFO - User logged in successfully
+2025-05-21 12:01:15,082 - INFO - User logged in successfully
+2025-05-21 12:21:16,110 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 12:52:12,886 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 12:52:16,532 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 12:52:42,981 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 12:52:58,719 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 12:53:02,289 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 12:53:36,716 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 12:53:40,268 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 12:54:06,746 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 12:54:25,777 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 12:54:29,543 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 12:54:56,256 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 12:55:19,947 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 12:55:23,941 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 12:55:28,153 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-21 12:55:33,329 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 13:00:09,028 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 13:00:12,907 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 13:00:44,069 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 13:00:47,819 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 13:02:49,534 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 13:02:53,696 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 13:02:57,968 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-21 13:03:03,656 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 13:03:08,013 - INFO - User logged in successfully
+2025-05-21 13:03:13,112 - INFO - Log out is successfully

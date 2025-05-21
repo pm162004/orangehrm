@@ -99,6 +99,7 @@ def quit_browser():
 
 
 # Test Cases
+
 class TestOrangeHrmLogin:
 
     def test_blank_login_field(self):
@@ -110,7 +111,7 @@ class TestOrangeHrmLogin:
     def test_invalid_username(self):
         refresh_page()
         username_input().send_keys(input_field.INVALID_USERNAME)
-        password_input().send_keys(password)
+        password_input().send_keys(config.PASSWORD)
         login_btn().click()
         assert check_invalid_creds().text == error.INVALID_CREDS_ERROR_MESSAGE
         driver.save_screenshot(f"../screenshorts/invalid_username.png")
