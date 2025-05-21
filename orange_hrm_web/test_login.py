@@ -14,9 +14,7 @@ from orange_hrm_setup.config import config
 from constant import validation_assert, error, input_field
 from log_config import setup_logger
 
-
 logger = setup_logger()
-
 
 # Setup driver
 chrome_options = webdriver.ChromeOptions()
@@ -50,7 +48,8 @@ def login_btn():
 def check_blank_username():
     username_variable = wait.until(
         EC.presence_of_element_located(
-            (By.XPATH, "(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[1]")
+            (By.XPATH,
+             "(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[1]")
         )
     )
     return username_variable
@@ -59,7 +58,8 @@ def check_blank_username():
 def check_blank_password():
     password_variable = wait.until(
         EC.presence_of_element_located(
-            (By.XPATH, "(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[2]")
+            (By.XPATH,
+             "(//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message'][normalize-space()='Required'])[2]")
         )
     )
     return password_variable
@@ -98,7 +98,6 @@ def quit_browser():
     return driver.quit()
 
 
-
 # Test Cases
 class TestOrangeHrmLogin:
 
@@ -107,7 +106,6 @@ class TestOrangeHrmLogin:
         assert check_blank_username().text == validation_assert.ENTER_USERNAME
         assert check_blank_password().text == validation_assert.ENTER_PASSWORD
         logger.info("Enter blank username and password check the error message is displayed.")
-
 
     def test_invalid_username(self):
         refresh_page()
@@ -118,17 +116,15 @@ class TestOrangeHrmLogin:
         driver.save_screenshot(f"../screenshorts/invalid_username.png")
         logger.info("Enter invalid username check the error message is displayed.")
 
-
     def test_invalid_password(self):
         refresh_page()
-        username_input().send_keys(user_name)
+        username_input().send_keys(config.USER_NAME)
         password_input().send_keys(input_field.INVALID_PASSWORD)
         login_btn().click()
         assert check_invalid_creds().text == error.INVALID_CREDS_ERROR_MESSAGE
         driver.save_screenshot(f"../screenshorts/invalid_password.png")
         logger.info("Enter invalid password and check the error message is displayed.")
         refresh_page()
-
 
     def test_invalid_username_password(self):
         refresh_page()
@@ -139,15 +135,13 @@ class TestOrangeHrmLogin:
         driver.save_screenshot(f"../screenshorts/invalid_username_password.png")
         logger.info("Enter invalid username and password and check the error message is displayed.")
 
-
     def test_valid_login_flow(self):
         refresh_page()
-        username_input().send_keys(user_name)
-        password_input().send_keys(password)
+        username_input().send_keys(config.USER_NAME)
+        password_input().send_keys(config.PASSWORD)
         login_btn().click()
         assert check_for_dashboard().text == validation_assert.dashboard
         logger.info("User logged in successfully")
-
 
     def test_logout(self):
         refresh_page()

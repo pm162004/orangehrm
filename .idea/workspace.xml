@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="intitial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test_log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshorts/invalid_username.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshorts/invalid_username.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshorts/invalid_username_password.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshorts/invalid_username_password.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pm162004/orangehrm.git",
-    "accountId": "5d3da423-315c-49a0-ada5-58775cf03d07"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pm162004&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pm162004/orangehrm.git&quot;,
+    &quot;accountId&quot;: &quot;5d3da423-315c-49a0-ada5-58775cf03d07&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -52,7 +62,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/web-h-028/PycharmProjects/orange_hrm_automation/Resume",
+    "last_opened_file_path": "/home/web-h-028/PycharmProjects/orange_hrm_automation",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>

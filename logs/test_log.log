@@ -271,3 +271,14 @@
 2025-05-20 13:13:17,027 - INFO - Vacancy validated
 2025-05-20 13:13:17,046 - INFO - Application status validated
 2025-05-20 13:13:17,218 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-21 11:00:05,019 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 11:00:09,101 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 11:03:02,813 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 11:03:06,866 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 11:03:33,408 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 11:05:38,375 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-21 11:05:42,245 - INFO - Enter invalid username check the error message is displayed.
+2025-05-21 11:05:46,889 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-21 11:05:52,521 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-21 11:05:56,922 - INFO - User logged in successfully
+2025-05-21 11:06:01,950 - INFO - Log out is successfully
