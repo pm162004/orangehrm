@@ -1,3 +1,4 @@
+
 import pytest
 
 test_data = [
@@ -8,6 +9,7 @@ test_data = [
 
 @pytest.mark.parametrize("candidate_name, interview_time", test_data)
 def test_schedule_interview(candidate_name, interview_time):
+
     print(f"Scheduling interview for {candidate_name} at {interview_time}")
     assert candidate_name != ""
     assert interview_time != ""

@@ -957,3 +957,37 @@
 2025-05-21 17:20:04,475 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
 2025-05-21 17:20:11,596 - INFO - User logged in successfully
 2025-05-21 17:20:17,895 - INFO - Log out is successfully
+2025-05-22 12:27:56,063 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-22 12:28:14,765 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-22 12:28:21,085 - INFO - Enter invalid username check the error message is displayed.
+2025-05-22 12:28:29,939 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-22 12:28:46,777 - INFO - User logged in successfully
+2025-05-22 12:29:12,775 - INFO - Log out is successfully
+2025-05-22 12:29:34,001 - INFO - User logged in successfully
+2025-05-22 12:29:39,968 - INFO - Navigated to Recruitment > Candidates page
+2025-05-22 12:29:46,962 - INFO - Clicked Add Candidate button
+2025-05-22 12:29:50,375 - INFO - Blank validations are displayed
+2025-05-22 12:29:52,428 - INFO - Entered candidate name and email
+2025-05-22 12:29:52,428 - INFO - Selected vacancy: Software Engineer
+2025-05-22 12:29:52,517 - INFO - Uploaded resume
+2025-05-22 12:29:52,585 - INFO - Clicked Save button
+2025-05-22 12:30:52,863 - INFO - User logged in successfully
+2025-05-22 12:30:56,656 - INFO - Navigated to Recruitment > Candidates page
+2025-05-22 12:31:07,052 - INFO - Clicked Add Candidate button
+2025-05-22 12:31:12,029 - INFO - Blank validations are displayed
+2025-05-22 12:31:14,272 - INFO - Entered candidate name and email
+2025-05-22 12:31:14,273 - INFO - Selected vacancy: Software Engineer
+2025-05-22 12:31:14,366 - INFO - Uploaded resume
+2025-05-22 12:31:14,436 - INFO - Clicked Save button
+2025-05-22 12:31:23,626 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-22 12:31:26,493 - INFO - Logged out successfully
+2025-05-22 12:32:00,761 - INFO - User logged in successfully
+2025-05-22 12:32:13,186 - INFO - Navigated to Recruitment > Candidates page
+2025-05-22 12:32:48,884 - INFO - Navigated to Recruitment section
+2025-05-22 12:32:52,844 - INFO - Searching for candidate
+2025-05-22 12:33:03,399 - INFO - Selected autosuggested candidate: john
+2025-05-22 12:33:03,485 - INFO - Searched for candidate: john
+2025-05-22 12:33:10,121 - INFO - Candidate name validated
+2025-05-22 12:33:10,175 - INFO - Vacancy validated
+2025-05-22 12:33:10,207 - INFO - Application status validated
+2025-05-22 12:33:10,380 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
