@@ -1,10 +1,10 @@
 import subprocess
 
 file_order = [
-    "test_01_login.py",
-    "test_02_add_new_candidate.py",
-    "test_03_search_and_validate_candidate.py",
-    "test_04_logout.py",
+    "orange_hrm_web/test_login.py",
+    "orange_hrm_web/test_add_new_candidate.py",
+    "orange_hrm_web/test_search_and_validate_candidate.py",
+    "orange_hrm_web/test_logout.py",
 ]
 
 for file in file_order:

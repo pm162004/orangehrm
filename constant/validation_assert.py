@@ -1,6 +1,6 @@
 ENTER_USERNAME = "Required"
 ENTER_PASSWORD = "Required"
-dashboard = "Dashboard"
+DASHBOARD = "Dashboard"
 ENTER_FIRST_NAME = "Required"
 ENTER_LAST_NAME = "Required"
 ENTER_EMAIL = "Required"

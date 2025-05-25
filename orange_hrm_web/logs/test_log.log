@@ -1122,31 +1122,13 @@
 2025-05-25 23:19:15,622 - INFO - Screenshot saved at: ../screenshorts\candidate_search_result.png
 2025-05-25 23:19:52,736 - INFO - User logged in successfully
 2025-05-25 23:20:02,799 - INFO - Log out is successfully
-2025-05-25 23:36:55,618 - INFO - User logged in successfully
-2025-05-25 23:37:00,747 - INFO - Navigated to Recruitment > Candidates page
-2025-05-25 23:37:06,498 - INFO - Clicked Add Candidate button
-2025-05-25 23:37:11,841 - INFO - Blank validations are displayed
-2025-05-25 23:37:34,209 - INFO - Entered candidate name and email
-2025-05-25 23:37:34,210 - INFO - Selected vacancy: Software Engineer
-2025-05-25 23:37:37,689 - INFO - Uploaded resume
-2025-05-25 23:37:38,797 - INFO - Clicked Save button
-2025-05-25 23:37:48,206 - INFO - Candidate 'John' successfully added and visible in the candidates table
-2025-05-25 23:37:55,637 - INFO - Logged out successfully
-2025-05-25 23:38:08,299 - INFO - Enter blank username and password check the error message is displayed.
-2025-05-25 23:38:18,831 - INFO - Enter invalid password and check the error message is displayed.
-2025-05-25 23:38:27,528 - INFO - Enter invalid username check the error message is displayed.
-2025-05-25 23:38:41,696 - INFO - Enter invalid username and password and check the error message is displayed.
-2025-05-25 23:39:00,652 - INFO - User logged in successfully
-2025-05-25 23:39:33,079 - INFO - Log out is successfully
-2025-05-25 23:40:13,605 - INFO - User logged in successfully
-2025-05-25 23:40:36,774 - INFO - Log out is successfully
-2025-05-25 23:40:54,391 - INFO - User logged in successfully
-2025-05-25 23:40:59,370 - INFO - Navigated to Recruitment > Candidates page
-2025-05-25 23:41:05,725 - INFO - Navigated to Recruitment section
-2025-05-25 23:41:07,340 - INFO - Searching for candidate
-2025-05-25 23:41:08,996 - INFO - Selected autosuggested candidate: john
-2025-05-25 23:41:09,775 - INFO - Searched for candidate: john
-2025-05-25 23:41:10,702 - INFO - Candidate name validated
-2025-05-25 23:41:10,789 - INFO - Vacancy validated
-2025-05-25 23:41:10,955 - INFO - Application status validated
-2025-05-25 23:41:11,835 - INFO - Screenshot saved at: ../screenshorts\candidate_search_result.png
+2025-05-25 23:23:59,175 - INFO - User logged in successfully
+2025-05-25 23:24:03,789 - INFO - Navigated to Recruitment > Candidates page
+2025-05-25 23:24:07,645 - INFO - Clicked Add Candidate button
+2025-05-25 23:24:10,427 - INFO - Blank validations are displayed
+2025-05-25 23:24:13,910 - INFO - Entered candidate name and email
+2025-05-25 23:24:13,910 - INFO - Selected vacancy: Software Engineer
+2025-05-25 23:24:14,628 - INFO - Uploaded resume
+2025-05-25 23:24:15,061 - INFO - Clicked Save button
+2025-05-25 23:24:22,643 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-25 23:24:28,824 - INFO - Logged out successfully

@@ -5,7 +5,7 @@ def load_candidates_from_json(file_path):
     with open(file_path) as f:
         return json.load(f)
 
-candidates = load_candidates_from_json("/home/web-h-028/PycharmProjects/orange_hrm_automation/candidate.json")
+candidates = load_candidates_from_json("./candidate.json")
 
 @pytest.mark.parametrize("candidate", candidates)
 def test_schedule_interview(candidate):
