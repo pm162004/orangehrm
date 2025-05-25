@@ -7,11 +7,6 @@ from orange_hrm_setup.config import config
 from constant import validation_assert
 from log_config import setup_logger
 
-
-
-
-
-# Setup driver
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--no-sandbox')
 
@@ -68,8 +63,6 @@ def refresh_page():
 def quit_browser():
     time.sleep(1)
     return driver.quit()
-
-# Test Cases
 
 class TestOrangeHrmLogOut:
 

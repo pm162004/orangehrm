@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="intitial commit">
-      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_web/logs/test_log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orange_hrm_web/resume/candidate_resume.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/orange_hrm_automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/orange_hrm_automation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/input_field.py" beforeDir="false" afterPath="$PROJECT_DIR$/constant/input_field.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/constant/validation_assert.py" beforeDir="false" afterPath="$PROJECT_DIR$/constant/validation_assert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_setup/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_setup/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_01_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_02_add_new_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_add_new_candidate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_03_search_and_validate_candidate.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_search_and_validate_candidate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_04_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reportsreport.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_tests_in_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests_in_order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_candidate_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_candidate_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" beforeDir="false" afterPath="$PROJECT_DIR$/orange_hrm_web/test_logout.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747828392334</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="intitial commit">
+      <option name="closed" value="true" />
+      <created>1748197103405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748197103405</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
