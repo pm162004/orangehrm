@@ -1150,3 +1150,59 @@
 2025-05-25 23:41:10,789 - INFO - Vacancy validated
 2025-05-25 23:41:10,955 - INFO - Application status validated
 2025-05-25 23:41:11,835 - INFO - Screenshot saved at: ../screenshorts\candidate_search_result.png
+2025-05-26 00:06:15,017 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-26 00:06:32,998 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-26 00:06:40,625 - INFO - Enter invalid username check the error message is displayed.
+2025-05-26 00:06:48,609 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-26 00:06:56,766 - INFO - User logged in successfully
+2025-05-26 00:07:05,078 - INFO - Log out is successfully
+2025-05-26 00:07:17,448 - INFO - User logged in successfully
+2025-05-26 00:07:20,963 - INFO - Navigated to Recruitment > Candidates page
+2025-05-26 00:07:25,315 - INFO - Clicked Add Candidate button
+2025-05-26 00:07:30,294 - INFO - Blank validations are displayed
+2025-05-26 00:07:32,061 - INFO - Entered candidate name and email
+2025-05-26 00:07:32,061 - INFO - Selected vacancy: Software Engineer
+2025-05-26 00:07:32,455 - INFO - Uploaded resume
+2025-05-26 00:07:32,674 - INFO - Clicked Save button
+2025-05-26 00:07:39,325 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-26 00:07:42,069 - INFO - Logged out successfully
+2025-05-26 00:07:53,011 - INFO - User logged in successfully
+2025-05-26 00:07:54,714 - INFO - Navigated to Recruitment > Candidates page
+2025-05-26 00:07:59,777 - INFO - Navigated to Recruitment section
+2025-05-26 00:08:00,842 - INFO - Searching for candidate
+2025-05-26 00:08:02,548 - INFO - Selected autosuggested candidate: john
+2025-05-26 00:08:02,828 - INFO - Searched for candidate: john
+2025-05-26 00:08:03,465 - INFO - Candidate name validated
+2025-05-26 00:08:03,523 - INFO - Vacancy validated
+2025-05-26 00:08:03,571 - INFO - Application status validated
+2025-05-26 00:08:03,977 - INFO - Screenshot saved at: ../screenshorts\candidate_search_result.png
+2025-05-26 00:08:14,929 - INFO - User logged in successfully
+2025-05-26 00:08:22,709 - INFO - Log out is successfully
+2025-05-26 00:22:06,520 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-26 00:22:13,659 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-26 00:22:18,380 - INFO - Enter invalid username check the error message is displayed.
+2025-05-26 00:22:34,042 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-26 00:22:46,539 - INFO - User logged in successfully
+2025-05-26 00:22:56,217 - INFO - Log out is successfully
+2025-05-26 00:23:06,970 - INFO - User logged in successfully
+2025-05-26 00:23:08,802 - INFO - Navigated to Recruitment > Candidates page
+2025-05-26 00:23:11,208 - INFO - Clicked Add Candidate button
+2025-05-26 00:23:14,133 - INFO - Blank validations are displayed
+2025-05-26 00:23:15,797 - INFO - Entered candidate name and email
+2025-05-26 00:23:15,798 - INFO - Selected vacancy: Software Engineer
+2025-05-26 00:23:16,119 - INFO - Uploaded resume
+2025-05-26 00:23:16,409 - INFO - Clicked Save button
+2025-05-26 00:23:23,902 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-26 00:23:27,744 - INFO - Logged out successfully
+2025-05-26 00:23:37,849 - INFO - User logged in successfully
+2025-05-26 00:23:39,554 - INFO - Navigated to Recruitment > Candidates page
+2025-05-26 00:23:44,231 - INFO - Navigated to Recruitment section
+2025-05-26 00:23:45,111 - INFO - Searching for candidate
+2025-05-26 00:23:46,731 - INFO - Selected autosuggested candidate: john
+2025-05-26 00:23:47,015 - INFO - Searched for candidate: john
+2025-05-26 00:23:47,673 - INFO - Candidate name validated
+2025-05-26 00:23:47,715 - INFO - Vacancy validated
+2025-05-26 00:23:47,758 - INFO - Application status validated
+2025-05-26 00:23:48,073 - INFO - Screenshot saved at: ../screenshorts\candidate_search_result.png
+2025-05-26 00:23:58,218 - INFO - User logged in successfully
+2025-05-26 00:24:05,500 - INFO - Log out is successfully
