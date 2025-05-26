@@ -1,6 +1,4 @@
-
 import pytest
-import logging
 from log_config import setup_logger
 
 logger = setup_logger()
