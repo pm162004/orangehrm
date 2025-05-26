@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07074c0-bf50-42bb-aa79-1c844f5d1ddf" name="Changes" comment="intitial commit">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/test_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_driven_test_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_driven_test_json.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +32,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/pm162004/orangehrm.git&quot;,
-    &quot;accountId&quot;: &quot;696cbb3e-404d-4ece-91ed-6b511318db28&quot;
+    &quot;accountId&quot;: &quot;5d3da423-315c-49a0-ada5-58775cf03d07&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -65,21 +63,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Winner/PycharmProjects/orangehrm/orange_hrm_web",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+    "last_opened_file_path": "/home/web-h-028/PycharmProjects/TrainingAutomation",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Winner\PycharmProjects\orangehrm\orange_hrm_web" />
-      <recent name="C:\Users\Winner\PycharmProjects\orangehrm" />
       <recent name="$PROJECT_DIR$/Resume" />
       <recent name="$PROJECT_DIR$/orange_hrm_setup" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Winner\PycharmProjects\orangehrm" />
-      <recent name="C:\Users\Winner\PycharmProjects\orangehrm\orange_hrm_web" />
+      <recent name="$PROJECT_DIR$/reports" />
       <recent name="$PROJECT_DIR$/orange_hrm_web" />
       <recent name="$PROJECT_DIR$/orange_hrm_setup" />
     </key>
@@ -87,7 +82,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-348a24fa61fa-5312c7369657-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.23774.444" />
       </set>
     </attachedChunks>
   </component>
@@ -141,19 +136,19 @@
     </task>
     <task id="LOCAL-00006" summary="intitial commit">
       <option name="closed" value="true" />
-      <created>1748197103405</created>
+      <created>1748234863852</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1748197103405</updated>
+      <updated>1748234863852</updated>
     </task>
     <task id="LOCAL-00007" summary="intitial commit">
       <option name="closed" value="true" />
-      <created>1748197262549</created>
+      <created>1748235503183</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1748197262549</updated>
+      <updated>1748235503183</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />

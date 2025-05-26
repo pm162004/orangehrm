@@ -1,0 +1,59 @@
+Index: confest.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import os\nimport logging\nfrom datetime import datetime\n\nimport pytest\nfrom selenium import webdriver\nfrom selenium.webdriver.chrome.options import Options\n\nfrom log_config import setup_logger\n\n# Initialize logger\nlogger = setup_logger()\n\n\n\n\ndef pytest_collection_modify_items(session, config, items):\n\n    file_order = [\n        \"test_01_login.py\",\n        \"test_02_add_new_candidate.py\",\n        \"test_03_search_and_validate_candidate.py\",\n        \"test_04_logout.py\",\n    ]\n\n\n    def file_index(item):\n        for idx, filename in enumerate(file_order):\n            if filename in item.nodeid:\n                return idx\n        return len(file_order)\n\n\n    items.sort(key=file_index)\n    order = [\n        \"test_01_login.py::TestOrangeHrmLogin::test_blank_login_field\",\n        \"test_01_login.py::TestOrangeHrmLogin::test_invalid_username\",\n        \"test_01_login.py::TestOrangeHrmLogin::test_invalid_password\",\n        \"test_01_login.py::TestOrangeHrmLogin::test_invalid_username_password\",\n        \"test_01_login.py::TestOrangeHrmLogin::test_valid_login_flow\",\n        \"test_add_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn\",\n        \"test_add_candidate.py::TestOrangeHrmCandidate::test_blank_validations\",\n        \"test_add_candidate.py::TestOrangeHrmCandidate::test_add_new_candidate\",\n        \"test_search_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn\",\n        \"test_search_candidate.py::TestOrangeHrmCandidate::test_search_candidate\",\n        \"test_04_logout.py::TestOrangeHrmLogout::test_logout\",\n    ]\n\n    item_dict = {item.nodeid: item for item in items}\n    ordered_items = [item_dict[name] for name in order if name in item_dict]\n    rest = [item for item in items if item not in ordered_items]\n    items[:] = ordered_items + rest\n\n    logger.info(f\"Test order applied. Ordered: {len(ordered_items)}; Remaining: {len(rest)}\")\n\n\n# ---------- HTML Reporting ----------\n@pytest.hookimpl(tryfirst=True)\ndef pytest_configure(config):\n    report_dir = os.path.join(os.path.dirname(__file__), \"reports\")\n    os.makedirs(report_dir, exist_ok=True)\n\n    timestamp = datetime.now().strftime(\"%Y-%m-%d_%H-%M-%S\")\n    report_path = os.path.join(report_dir, f\"report_{timestamp}.html\")\n    config.option.htmlpath = report_path\n    config.option.self_contained_html = True\n\n    logger.info(f\"HTML report will be saved to: {report_path}\")\n\n
+===================================================================
+diff --git a/confest.py b/confest.py
+--- a/confest.py	(revision 8928ce4a38c5eea8847ecb17f4e539131e5cd986)
++++ b/confest.py	(date 1747997982490)
+@@ -17,10 +17,10 @@
+ def pytest_collection_modify_items(session, config, items):
+ 
+     file_order = [
+-        "test_01_login.py",
+-        "test_02_add_new_candidate.py",
+-        "test_03_search_and_validate_candidate.py",
+-        "test_04_logout.py",
++        "test_login.py",
++        "test_add_new_candidate.py",
++        "test_search_and_validate_candidate.py",
++        "test_logout.py",
+     ]
+ 
+ 
+@@ -33,17 +33,17 @@
+ 
+     items.sort(key=file_index)
+     order = [
+-        "test_01_login.py::TestOrangeHrmLogin::test_blank_login_field",
+-        "test_01_login.py::TestOrangeHrmLogin::test_invalid_username",
+-        "test_01_login.py::TestOrangeHrmLogin::test_invalid_password",
+-        "test_01_login.py::TestOrangeHrmLogin::test_invalid_username_password",
+-        "test_01_login.py::TestOrangeHrmLogin::test_valid_login_flow",
++        "test_login.py::TestOrangeHrmLogin::test_blank_login_field",
++        "test_login.py::TestOrangeHrmLogin::test_invalid_username",
++        "test_login.py::TestOrangeHrmLogin::test_invalid_password",
++        "test_login.py::TestOrangeHrmLogin::test_invalid_username_password",
++        "test_login.py::TestOrangeHrmLogin::test_valid_login_flow",
+         "test_add_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn",
+         "test_add_candidate.py::TestOrangeHrmCandidate::test_blank_validations",
+         "test_add_candidate.py::TestOrangeHrmCandidate::test_add_new_candidate",
+         "test_search_candidate.py::TestOrangeHrmCandidate::test_click_add_candidate_btn",
+         "test_search_candidate.py::TestOrangeHrmCandidate::test_search_candidate",
+-        "test_04_logout.py::TestOrangeHrmLogout::test_logout",
++        "test_logout.py::TestOrangeHrmLogout::test_logout",
+     ]
+ 
+     item_dict = {item.nodeid: item for item in items}
+diff --git a/orange_hrm_web/test_01_login.py b/orange_hrm_web/test_login.py
+rename from orange_hrm_web/test_01_login.py
+rename to orange_hrm_web/test_login.py
+diff --git a/orange_hrm_web/test_04_logout.py b/orange_hrm_web/test_logout.py
+rename from orange_hrm_web/test_04_logout.py
+rename to orange_hrm_web/test_logout.py
+diff --git a/orange_hrm_web/test_03_search_and_validate_candidate.py b/orange_hrm_web/test_search_and_validate_candidate.py
+rename from orange_hrm_web/test_03_search_and_validate_candidate.py
+rename to orange_hrm_web/test_search_and_validate_candidate.py
+diff --git a/orange_hrm_web/test_02_add_new_candidate.py b/orange_hrm_web/test_add_new_candidate.py
+rename from orange_hrm_web/test_02_add_new_candidate.py
+rename to orange_hrm_web/test_add_new_candidate.py
