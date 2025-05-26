@@ -1132,3 +1132,31 @@
 2025-05-25 23:24:15,061 - INFO - Clicked Save button
 2025-05-25 23:24:22,643 - INFO - Candidate 'John' successfully added and visible in the candidates table
 2025-05-25 23:24:28,824 - INFO - Logged out successfully
+2025-05-26 10:09:01,084 - INFO - Enter blank username and password check the error message is displayed.
+2025-05-26 10:09:06,403 - INFO - Enter invalid password and check the error message is displayed.
+2025-05-26 10:09:10,365 - INFO - Enter invalid username check the error message is displayed.
+2025-05-26 10:09:15,909 - INFO - Enter invalid username and password and check the error message is displayed.
+2025-05-26 10:09:21,835 - INFO - User logged in successfully
+2025-05-26 10:09:27,365 - INFO - Log out is successfully
+2025-05-26 10:09:32,645 - INFO - User logged in successfully
+2025-05-26 10:09:34,441 - INFO - Navigated to Recruitment > Candidates page
+2025-05-26 10:09:36,147 - INFO - Clicked Add Candidate button
+2025-05-26 10:09:37,463 - INFO - Blank validations are displayed
+2025-05-26 10:09:38,708 - INFO - Entered candidate name and email
+2025-05-26 10:09:38,708 - INFO - Selected vacancy: Software Engineer
+2025-05-26 10:09:38,839 - INFO - Uploaded resume
+2025-05-26 10:09:38,916 - INFO - Clicked Save button
+2025-05-26 10:09:44,916 - INFO - Candidate 'John' successfully added and visible in the candidates table
+2025-05-26 10:09:47,013 - INFO - Logged out successfully
+2025-05-26 10:09:52,192 - INFO - User logged in successfully
+2025-05-26 10:09:53,557 - INFO - Navigated to Recruitment > Candidates page
+2025-05-26 10:09:57,426 - INFO - Navigated to Recruitment section
+2025-05-26 10:09:58,065 - INFO - Searching for candidate
+2025-05-26 10:09:59,618 - INFO - Selected autosuggested candidate: john
+2025-05-26 10:09:59,820 - INFO - Searched for candidate: john
+2025-05-26 10:10:01,564 - INFO - Candidate name validated
+2025-05-26 10:10:01,609 - INFO - Vacancy validated
+2025-05-26 10:10:01,651 - INFO - Application status validated
+2025-05-26 10:10:01,818 - INFO - Screenshot saved at: ../screenshorts/candidate_search_result.png
+2025-05-26 10:10:07,767 - INFO - User logged in successfully
+2025-05-26 10:10:13,381 - INFO - Log out is successfully
